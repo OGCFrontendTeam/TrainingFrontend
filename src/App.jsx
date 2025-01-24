@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import Aboutus from './pages/Home/Aboutus/Aboutus'
+import ContactUs from './pages/contactus/contactus'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="app">
       <Aboutus />
+      <ContactUs />
     </div>
   )
 }
